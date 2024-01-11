@@ -9,6 +9,7 @@ namespace myMoviez.Models
         public int MovieId { get; set; }
         public string MovieName { get; set; } = null!;
         public string? Plot { get; set; }
+        [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
         public string? Duration { get; set; }
         public int? RnRid { get; set; }
